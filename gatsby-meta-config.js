@@ -9,12 +9,12 @@ module.exports = {
       repo: `zoomkoding/zoomkoding-gatsby-blog`,
     },
   },
-  ga: '0', // Google Analytics Tracking ID
+  ga: 'UA-134826755-2', // Google Analytics Tracking ID
   author: {
     name: `정진혁`,
     bio: {
       role: `개발자`,
-      description: ['사람에 가치를 두는', '주체적으로 일하는', '이로운 것을 만드는'],
+      description: ['사람에 가치를 두는', '능동적으로 일하는', '이로운 것을 만드는'],
       isVideo: false,
     },
     social: {

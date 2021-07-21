@@ -14,13 +14,13 @@ module.exports = {
     name: `Derrick`,
     bio: {
       role: `Software Engineer`,
-      description: ['사람에 가치를 두는', '능동적으로 일하는', '이로운 것을 만드는'],
+      description: ['¡Hola!', 'こんにちは', '你好'],
       isVideo: false,
     },
     social: {
-      github: `https://github.com/zoomKoding`,
-      linkedIn: `https://www.linkedin.com/in/jinhyeok-jeong-800871192`,
-      email: `zoomkoding@gmail.com`,
+      github: `https://github.com/superbderrick`,
+      linkedIn: `https://www.linkedin.com/in/superbderrick`,
+      email: `kang.derrick@gmail.com`,
     },
   },
 

@@ -1,7 +1,6 @@
 import React from 'react';
 import PostCardsColumn from '../post-cards-column';
 import Tabs from '../tabs';
-import VerticalTabs from '../vertical-tabs';
 
 import './style.scss';
 
@@ -16,12 +15,7 @@ const PostsPageBody = ({ tabIndex, onChange, tabs, posts }) => {
               ? posts
               : posts.filter((post) => post.categories.includes(tabs[tabIndex]))
           }
-        />
-        <VerticalTabs
-          className={'vertical-tabs'}
-          value={tabIndex}
-          onChange={onChange}
-          tabs={tabs}
+          showMoreButton={false}
         />
       </div>
     </div>

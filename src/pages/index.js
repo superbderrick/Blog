@@ -33,6 +33,7 @@ export default ({ data }) => {
                 .slice(0, 4)
         }
         moreUrl={`posts/${tabIndex === 0 ? '' : categories[tabIndex]}`}
+        showMoreButton
       />
     </Layout>
   );
@@ -65,7 +66,7 @@ export const pageQuery = graphql`
           bio {
             role
             description
-            isVideo
+            thumbnail
           }
           social {
             github

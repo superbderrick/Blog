@@ -8,7 +8,7 @@ const TimeStampsSection = ({ timestamps }) => {
   return (
     <div className="timestamps-section-wrapper">
       <div className="timestamps-section">
-        <SectionHeader title="Timestamps" />
+        <SectionHeader title="Experience" />
         <div className="body">
           {timestamps.map((timestamp, index) =>
             index === 0 ? null : (

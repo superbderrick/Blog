@@ -9,7 +9,7 @@ module.exports = {
       repo: `superbderrick/NewBlog`,
     },
   },
-  ga: 'UA-134826755-2', // Google Analytics Tracking ID
+  ga: 'UA-90863637-2', // Google Analytics Tracking ID
   author: {
     name: `Derrick`,
     bio: {

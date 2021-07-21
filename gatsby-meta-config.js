@@ -9,13 +9,13 @@ module.exports = {
       repo: `superbderrick/NewBlog`,
     },
   },
-  ga: 'UA-90863637-2', // Google Analytics Tracking ID
+  ga: '0', // Google Analytics Tracking ID
   author: {
     name: `Derrick`,
     bio: {
       role: `Software Engineer`,
       description: ['¡Hola!', 'こんにちは', '你好'],
-      isVideo: false,
+      thumbnail: 'zoomkoding.gif', // Path to the image in the 'asset' folder
     },
     social: {
       github: `https://github.com/superbderrick`,
@@ -37,6 +37,7 @@ module.exports = {
           post: '',
           googlePlay: '',
           appStore: '',
+          demo: '',
         },
       },
       // ========================================================
@@ -90,7 +91,7 @@ module.exports = {
         date: '2021.01 ~ 2021.02',
         activity: '대학시간(대학교 수강신청 보조 웹 앱) 개발 및 서비스',
         links: {
-          post: '/college-timetablee-development',
+          post: '/college-timetable-development',
           github: 'https://github.com/zoomkoding/college-timetable',
           demo: 'https://www.timetable.college',
         },
@@ -123,6 +124,7 @@ module.exports = {
           github: '',
           googlePlay: '',
           appStore: '',
+          demo: '',
         },
       },
       // ========================================================

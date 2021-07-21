@@ -9,17 +9,17 @@ module.exports = {
       repo: `superbderrick/NewBlog`,
     },
   },
-  ga: '0', // Google Analytics Tracking ID
+  ga: 'UA-90863637-2', // Google Analytics Tracking ID
   author: {
     name: `Derrick`,
     bio: {
       role: `Software Engineer`,
-      description: ['¡Hola!', 'こんにちは', '你好'],
+      description: ['¡Hola!', 'こんにちは!', '你好!'],
       thumbnail: 'zoomkoding.gif', // Path to the image in the 'asset' folder
     },
     social: {
       github: `https://github.com/superbderrick`,
-      linkedIn: `https://www.linkedin.com/in/superbderrick`,
+      linkedIn: `https://www.linkedin.com/in/sensational`,
       email: `kang.derrick@gmail.com`,
     },
   },
@@ -42,72 +42,43 @@ module.exports = {
       },
       // ========================================================
       // ========================================================
+    
       {
-        date: '2018.07 ~ 2018.12',
-        activity: '자존감 랩실(X-ray 그리드 라인 제거 개선 기법 연구)',
+        date: '2012.12 ~ 2017.12',
+        activity: 'Software Engineer at Kinemaster,NexPlayer',
+        links: {
+          demo: 'https://nexplayersdk.com/'
+        }
+      },
+  
+      {
+        date: '2017.12 ~ 2018.12',
+        activity: 'Lead Software Engineer at Kinemaster,NexPlayer',
+        links: {
+          demo: 'https://nexplayersdk.com/'
+        }
       },
 
       {
-        date: '2018.11.22',
-        activity: '2018 교내 인공지능(육목) 경진대회 우승',
-      },
-
-      {
-        date: '2019.06 ~ 2019.12',
-        activity: '알고리즘 휴학',
+        date: '2018.12 ~ 2020.03',
+        activity: 'Developer Relationship Engineer at Unity Technologies',
         links: {
-          post: '/how-to-algo',
-        },
-      },
-
-      {
-        date: '2019.11.17',
-        activity: '코드포스 블루',
-        links: {
-          post: '/codeforces-round-600',
-        },
-      },
-
-      {
-        date: '2019.12 ~ 2020.06',
-        activity: '스타트업 인턴 진행 및 Picky 앱 개발',
-        links: {
-          post: '/start-up-app-development',
-          googlePlay: 'https://play.google.com/store/apps/details?id=care.jivaka.picky',
-          appStore: 'https://apps.apple.com/app/picky-skincare-made-smarter/id1504197356',
-        },
-      },
-
-      {
-        date: '2020.07 ~ 2020.08',
-        activity: '2020 우아한테크캠프 참여',
-        links: {
-          post: '/woowa-tech-camp-final',
-          github: 'https://github.com/woowa-techcamp-2020/bmart-6',
-        },
-      },
-
-      {
-        date: '2021.01 ~ 2021.02',
-        activity: '대학시간(대학교 수강신청 보조 웹 앱) 개발 및 서비스',
-        links: {
-          post: '/college-timetable-development',
-          github: 'https://github.com/zoomkoding/college-timetable',
-          demo: 'https://www.timetable.college',
+          demo: 'https://unity.com/',
         },
       },
       {
-        date: '2021.02 ~ 2021.03',
-        activity: '개인 블로그 디자인 및 개발',
+        date: '2020.03 ~ 2021.04',
+        activity: 'Software Engineer at SmartStudy',
         links: {
-          post: '/zoomkoding-gatsby-blog-introduction',
-          github: 'https://github.com/zoomkoding/college-timetable',
-          demo: 'https://gatsby-starter-zoomkoding.netlify.app',
+          demo: 'https://www.smartstudy.co.kr/en/',
         },
       },
       {
-        date: '2021.03 ~ ',
-        activity: '우아한 개발자🚀',
+        date: '2021.04 ~ ',
+        activity: 'Lead Engineer at SmartStudy',
+        links: {
+          demo: 'https://www.smartstudy.co.kr/en/',
+        }
       },
     ],
 

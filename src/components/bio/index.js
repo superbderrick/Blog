@@ -28,18 +28,17 @@ const Bio = ({ author, language = 'ko' }) => {
           </div>
         ) : (
           <div className="introduction english">
-            <p className="title">
-              Hello,
-              <br />
-              my name is
-              <br />
-              <strong>{name}</strong>
-              .<br />
-            </p>
             <p className="description">
-              I'm a {bio.role} <ReactRotatingText items={bio.description} />
+              <ReactRotatingText items={bio.description} />
+              <br />
               <br />
             </p>
+            <p className="title">
+              My name is <strong>{name}</strong>
+              <br />
+              Software Engineer in Seoul
+            </p>
+            
             <div className="social-links">
               <IconButtonBar links={social} />
             </div>

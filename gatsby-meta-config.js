@@ -1,9 +1,9 @@
 module.exports = {
   title: `jinyoung.dev`,
   description: `Derrick's Blog`,
-  language: `en`, // `ko`, `en` => currently support versions for Korean and English
+  language: `en`, 
   siteUrl: `https://www.jinyoung.dev`,
-  ogImage: `/og-image.png`, // Path to your image you placed in the 'static' folder
+  ogImage: `/og-image.png`, //
   comments: {
     utterances: {
       repo: `superbderrick/NewBlog`,

@@ -1,6 +1,6 @@
 ---
 emoji: 🎮 
-title: Unity SNS Share Feature
+title: Unity Share text or image on social services with Native Share Plugin
 date: '2021-07-23 14:40:00'
 author: Derrick
 tags: Unity

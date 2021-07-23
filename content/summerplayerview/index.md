@@ -1,5 +1,5 @@
 ---
-emoji: 🦈
+emoji: 🎥 
 title: SummerPlayerView
 date: '2021-07-23 14:40:00'
 author: Derrick
@@ -14,5 +14,5 @@ iOS Custom VideoPlayerView for kids, Tried to make it as similar as possible a Y
 - **Swift5**
 - **Custom UI**
   
-![](/2.gif)
+![](2.gif)
 

@@ -118,7 +118,7 @@ module.exports = {
         description:
           'Developing a pinkfong membership client SDK for Unity Platforms using Unity plugin interface and each native sdks (Android, iOS ) pinkfong Membership service enable to provide On/offline service connection and member management and it could provide own digital products and services such as coupon codes and support Multi-platform use of digital products available',
         techStack: ['unity', 'android','iOS','sdk development','unity plugin development'],
-        thumbnailUrl: 'bsc.png',
+        thumbnailUrl: 'membership.jepg',
         links: {
           post: '/pinkfong-membership',
         },

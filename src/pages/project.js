@@ -12,9 +12,7 @@ export default ({ data }) => {
   const { timestamps, projects } = about;
   return (
     <Layout>
-      <SEO title="About" />
-      <Bio author={author} language={language} />
-      <TimeStampsSection timestamps={timestamps} />
+      <ProjectsSection projects={projects} />
     </Layout>
   );
 };

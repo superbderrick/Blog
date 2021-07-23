@@ -1,9 +1,9 @@
 ---
-emoji: 🥇
+emoji: 🦈
 title: Pinkfong Plus Membership service sdk development
 date: '2021-07-23 14:40:00'
 author: Derrick
-tags: Project
+tags: CommercialProject
 categories: CommercialProject
 ---
 

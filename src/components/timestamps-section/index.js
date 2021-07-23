@@ -15,6 +15,8 @@ const TimeStampsSection = ({ timestamps }) => {
               <div className="timestamp" key={index}>
                 <div className="date">{timestamp.date}</div>
                 <div className="activity">
+                  
+                  {timestamp.companyName}&nbsp;
                   {timestamp.activity}&nbsp;
                   {timestamp.links && <IconButtonBar links={timestamp.links} />}
                 </div>

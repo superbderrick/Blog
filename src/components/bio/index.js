@@ -29,7 +29,7 @@ const Bio = ({ author, language = 'ko' }) => {
         ) : (
           <div className="introduction english">
             <p className="description">
-              <ReactRotatingText items={bio.description} />
+            <strong><ReactRotatingText items={bio.description} /></strong>
               <br />
               <br />
             </p>

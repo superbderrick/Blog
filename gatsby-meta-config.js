@@ -14,7 +14,7 @@ module.exports = {
     name: `Derrick`,
     bio: {
       role: `Software Engineer`,
-      description: ['¡Hola! Amigo', 'こんにちは! 友達', '你好! 朋友','Hey! Mate','안녕하세요! 반가워요'],
+      description: ['¡Hola! Amigo :)', 'こんにちは! 友達 :)', '你好! 朋友 :) ','Hey! Mate :)','안녕하세요! 반가워요 :)'],
       thumbnail: 'zoomkoding.gif', // Path to the image in the 'asset' folder
     },
     social: {

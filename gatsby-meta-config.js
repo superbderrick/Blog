@@ -105,11 +105,22 @@ module.exports = {
         description:
           'Participated in Baby Shark Coloring Book project, Implemented some features like Sound manager part to regulate some multiple sound effects and background music volumes with users save values and Implemented SNS share feature, a little bit UGUI development and research to make non game app with Unity',
         techStack: ['unity', 'android','iOS'],
-        thumbnailUrl: 'bsc.jpg',
+        thumbnailUrl: 'bsc.png',
         links: {
-          post: '/start-up-app-development',
+          post: '/babysharkcoloringbook',
           googlePlay: 'https://play.google.com/store/apps/details?id=kr.co.smartstudy.babysharkcoloring_android_googlemarket&hl=en_US&gl=US',
           appStore: 'https://apps.apple.com/kr/app/baby-shark-coloring-book/id1286586207?l=en',
+        },
+      },
+
+      {
+        title: 'Pinkfong Plus Membership service sdk development',
+        description:
+          'Developing a pinkfong membership client SDK for Unity Platforms using Unity plugin interface and each native sdks (Android, iOS ) pinkfong Membership service enable to provide On/offline service connection and member management and it could provide own digital products and services such as coupon codes and support Multi-platform use of digital products available',
+        techStack: ['unity', 'android','iOS','sdk development','unity plugin development'],
+        thumbnailUrl: 'bsc.png',
+        links: {
+          post: '/pinkfong-membership',
         },
       },
       // {

@@ -34,7 +34,7 @@ const Bio = ({ author, language = 'ko' }) => {
               <br />
             </p>
             <p className="title">
-              My name is <strong>{name}</strong>
+              I am <strong>{name}</strong>
               <br />
               Software Engineer in Seoul
             </p>

@@ -123,6 +123,17 @@ module.exports = {
           post: '/pinkfong-membership',
         },
       },
+
+      {
+        title: 'Snow AR camera platform project',
+        description:
+        'Participated Snow AR camera platfrom project and developed Android camera features using unity native plugins',
+        techStack: ['Unity', 'Android'],
+        thumbnailUrl: 'unitylogo.png',
+        links: {
+          post: '/snowarandroid',
+        },
+      },
       // {
       //   title: '개발 블로그 테마 개발',
       //   description:

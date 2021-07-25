@@ -131,7 +131,7 @@ module.exports = {
         techStack: ['Unity', 'Android'],
         thumbnailUrl: 'unitylogo.png',
         links: {
-          post: '/snowarandroid',
+          post: '/experience/snowar',
         },
       },
       // {

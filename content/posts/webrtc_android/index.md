@@ -24,7 +24,11 @@ Android development is only supported on Linux
 WebRTC development - Prerequisite software
 
 - Depot Tools
-- Install the Chromium depot tools.
+  - https://commondatastorage.googleapis.com/chrome-infra-docs/flat/depot_tools/docs/html/depot_tools_tutorial.html#_setting_up
+  
+- Install the Chromium depot tools
+
+
 
 
 

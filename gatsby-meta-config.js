@@ -134,6 +134,17 @@ module.exports = {
           post: '/experience/snowar',
         },
       },
+      {
+        title: 'KT Narle app project',
+        description:
+        'In order to optimize the customer’s app, developed to building a system to test the complexity of each screen (custom unity editor development) ',
+        techStack: ['Unity', 'Android'],
+        thumbnailUrl: 'unitylogo.png',
+        links: {
+          post: '/experience/ktnarle',
+        },
+      },
+
       // {
       //   title: '개발 블로그 테마 개발',
       //   description:

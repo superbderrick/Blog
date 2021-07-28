@@ -145,41 +145,18 @@ module.exports = {
         },
       },
 
-      // {
-      //   title: '개발 블로그 테마 개발',
-      //   description:
-      //     '간단한 테마를 활용하여 개발 블로그를 만들고 운영하다 보니 점점 블로그를 내가 원하는 형태로 만들고 싶게 되었습니다. 입사 전 시기를 활용해서 원하는 기능과 디자인이 있는 블로그 테마를 만들게 되었습니다.',
-      //   techStack: ['gatsby', 'react'],
-      //   thumbnailUrl: 'zoomkoding.png',
-      //   links: {
-      //     post: '/why-dev-blog',
-      //     github: 'https://github.com/zoomkoding/college-timetable',
-      //     demo: 'https://gatsby-starter-zoomkoding.netlify.app',
-      //   },
-      // },
-      // {
-      //   title: '2020 우아한테크캠프 참여',
-      //   description:
-      //     '스타트업에서 앱 개발을 하면서 좋은 개발에 대한 갈증이 매우 크던 중에 좋은 기회를 잡게 되어 참여하게 되었습니다. 2달 간 몰입해서 좋은 사람들과 웹 개발을 경험하며, 많이 배우고 성장할 수 있었던 시간이었습니다.',
-      //   techStack: ['react', 'nodejs'],
-      //   thumbnailUrl: 'woowa-tech.png',
-      //   links: {
-      //     post: '/woowa-tech-camp-final',
-      //     github: 'https://github.com/woowa-techcamp-2020/bmart-6',
-      //   },
-      // },
-      // {
-      //   title: '대학시간(대학교 수강신청 보조 웹 앱) 개발',
-      //   description:
-      //     '학생들이 예비 수강 신청 과정에서 겪게 되는 불편함을 개선할 수 있는 웹 서비스를 개발하였습니다. 첫 서비스를 진행한 2021년 1학기에만 전체 학생의 절반 가량이 서비스를 경험했고, 사용한 학생들로부터 고맙다는 이야기를 여러 경로로 전달 받게 되었습니다. 개발이 줄 수 있는 좋은 영향력를 많이 느꼈던 프로젝트였습니다.',
-      //   techStack: ['react', 'nodejs'],
-      //   thumbnailUrl: 'timetable.png',
-      //   links: {
-      //     post: '/college-timetable-development',
-      //     github: 'https://github.com/zoomkoding/college-timetable',
-      //     demo: 'http://www.timetable.college',
-      //   },
-      // },
+      {
+        title: 'BTS World Project',
+        description:
+        'Developed for special Unity SDK for BTS World Game (consortium project), Role: PM and Lead Engineer - Feature development - Product preparation and documentation, supply to customer  ',
+        techStack: ['Unity', 'Android' ,'iOS'],
+        thumbnailUrl: 'bts.png',
+        links: {
+          post: '/experience/btsworld',
+        },
+      },
+
+   
     ],
   },
 };

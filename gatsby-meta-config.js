@@ -156,6 +156,18 @@ module.exports = {
         },
       },
 
+      {
+        title: 'NexPlayer SDK for Unity',
+        description:
+        'The main works are customer support, development for new features and Integrate with 3rd party’s solutions and build a whole architecture',
+        techStack: ['Unity', 'Android' ,'iOS'],
+        thumbnailUrl: 'nexunity.png',
+        links: {
+          post: '/experience/nexplayerunity',
+          github: 'https://github.com/NexPlayer/NexPlayer_Unity_Plugin',
+        },
+      },
+
    
     ],
   },

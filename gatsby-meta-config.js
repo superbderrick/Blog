@@ -6,7 +6,7 @@ module.exports = {
   ogImage: `/og-image.png`, //
   comments: {
     utterances: {
-      repo: `superbderrick/NewBlog`,
+      repo: `superbderrick/Blog`,
     },
   },
   ga: 'UA-90863637-2', // Google Analytics Tracking ID

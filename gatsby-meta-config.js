@@ -168,7 +168,44 @@ module.exports = {
         },
       },
 
+      {
+        title: 'NexPlayer SDK for iOS',
+        description:
+        'Made a SDK Sample code for iOS (Object C and Swift Both) and porting work iOS SDK (Between Player Engine (c/c++) and ObjectC Layer)',
+        techStack: ['Unity', 'Android' ,'iOS'],
+        thumbnailUrl: 'nexunity.png',
+        links: {
+          post: '/experience/nexplayerunity',
+          github: 'https://github.com/NexPlayer/NexPlayer_Unity_Plugin',
+        },
+      },
+
+      {
+        title: 'NexPlayer SDK for Android',
+        description:
+        'Made a SDK Sample code for Android new features andporting work Android SDK (Between Player Engine (c/c++) and JAVA Layer) with JNI',
+        techStack: ['Unity', 'Android' ,'sdk'],
+        thumbnailUrl: 'nexunity.png',
+        links: {
+          post: '/experience/nexplayerunity',
+          github: 'https://github.com/NexPlayer/NexPlayer_Unity_Plugin',
+        },
+      },
+
+      {
+        title: 'NexPlayer SDK for Windows UWP',
+        description:
+        'Mobile Live Streaming Player SDK Development for Windows 10 & UWP, made a sdk sample code and made some major modules like caption renderer',
+        techStack: ['Windows UWP', 'c#' ,'sdk'],
+        thumbnailUrl: 'nexunity.png',
+        links: {
+          post: '/experience/nexplayerunity',
+          github: 'https://github.com/NexPlayer/NexPlayer_Unity_Plugin',
+        },
+      },
    
     ],
   },
 };
+
+

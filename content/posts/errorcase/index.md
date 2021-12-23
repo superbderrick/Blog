@@ -8,10 +8,12 @@ categories: NPM
 ---
 
 
-Actually I am using gatsby for my personal blog.
-When I tried to start for my blog build using npm command, it occued some error like below error message
+Actually I am using gatsby for my personal blog, When I tried to start for my blog build using npm command "npm start"
 
-### Error: EACCES: permission denied, open '/Users/derrick/.config/gatsby/config.json'
+it occued some error like below error message
+
+Error: EACCES: permission denied, open '/Users/derrick/.config/gatsby/config.json'
+
 
   Error: EACCES: permission denied, open '/Users/derrick/.config/gatsby/config.json'
   You don't have access to this file.
@@ -28,9 +30,14 @@ When I tried to start for my blog build using npm command, it occued some error 
       at Function.Module._load (internal/modules/cjs/loader.js:778:12)
 
 
-with $ sudo chmod -R 777 [DIR] ->  e.g "/Users/derrick/.config/gatsby/"
+ 
 
 it might be occurred error tried to build without permission, so I changed a permission with mac commands chmod option
+
+
+$ sudo chmod -R 777 [DIR]
+
+  e.g "/Users/derrick/.config/gatsby/"
 
 worked well 
 

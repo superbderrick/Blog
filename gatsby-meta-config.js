@@ -175,8 +175,7 @@ module.exports = {
         techStack: ['Unity', 'Android' ,'iOS'],
         thumbnailUrl: 'nexunity.png',
         links: {
-          post: '/experience/nexplayerunity',
-          github: 'https://github.com/NexPlayer/NexPlayer_Unity_Plugin',
+          post: '/experience/nexplayerios',
         },
       },
 
@@ -187,8 +186,7 @@ module.exports = {
         techStack: ['Unity', 'Android' ,'sdk'],
         thumbnailUrl: 'nexunity.png',
         links: {
-          post: '/experience/nexplayerunity',
-          github: 'https://github.com/NexPlayer/NexPlayer_Unity_Plugin',
+          post: '/experience/nexplayerandroid',
         },
       },
 
@@ -199,8 +197,7 @@ module.exports = {
         techStack: ['Windows UWP', 'c#' ,'sdk'],
         thumbnailUrl: 'nexunity.png',
         links: {
-          post: '/experience/nexplayerunity',
-          github: 'https://github.com/NexPlayer/NexPlayer_Unity_Plugin',
+          post: '/experience/nexplayerwindow',
         },
       },
    

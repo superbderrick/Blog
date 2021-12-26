@@ -1,7 +1,7 @@
 ---
 emoji: 📞 
 title: Firebase Android How to check SHA1 Information 
-date: '2021-07-23 14:40:00'
+date: '2021-12-26 14:40:00'
 author: Derrick
 tags: Android SHA1
 categories: Android

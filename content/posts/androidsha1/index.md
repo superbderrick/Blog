@@ -20,8 +20,7 @@ E.g
 
 
 
-
-
+![](https://github.com/superbderrick/Blog/blob/docs/content/posts/androidsha1/sha.png?raw=true)
 
 
 

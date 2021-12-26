@@ -1,6 +1,6 @@
 ---
 emoji: 📞 
-title: Error case permission denied, open /Users/derrick/.config/gatsby/config.json
+title: Error case permission denied, open /User/.config/gatsby/config.json
 date: '2021-12-23 13:40:00'
 author: Derrick
 tags: NPM 

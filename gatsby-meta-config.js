@@ -100,6 +100,20 @@ module.exports = {
       },
       // ========================================================
       // ========================================================
+
+      {
+        title: 'Baby Shark World for Kids',
+        description:
+          'This app is the company  representative platform app, the number of people participating in the project is 10 or more I was in charge of the technical lead of the game part and I was responsible for managing the games in the app so that they could be included successfully Spent a lot of time researching and developing, The lead role of the game development part and to intergrate iOS native and Android Native Unity games ',
+        techStack: ['Unity', 'Android','iOS'],
+        thumbnailUrl: 'bsw.png',
+        links: {
+          post: '/babysharkworld',
+          appStore: 'https://apps.apple.com/us/app/baby-shark-world-for-kids/id1596897739',
+        },
+      },
+
+
       {
         title: 'Baby Shark Coloring Book',
         description:

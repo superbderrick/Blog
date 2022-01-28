@@ -1,6 +1,6 @@
 ---
 emoji: 🎮 
-title: Black screen error oniOS device after setup for basic ar foundation
+title: Black screen error on iOS device after setup for basic ar foundation
 date: '2022-01-28 15:20:00'
 author: Derrick
 tags: Unity ARFoundation

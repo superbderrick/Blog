@@ -68,16 +68,16 @@ module.exports = {
       },
       {
         date: '2020.03 ~ 2021.04',
-        activity: 'Software Engineer at SmartStudy',
+        activity: 'Software Engineer at The Pinkfong Company',
         links: {
-          demo: 'https://www.smartstudy.co.kr/en/',
+          demo: 'https://www.pinkfong.com/en/',
         },
       },
       {
         date: '2021.04 ~ ',
-        activity: 'Lead Engineer at SmartStudy',
+        activity: 'Lead Engineer at The Pinkfong Company',
         links: {
-          demo: 'https://www.smartstudy.co.kr/en/',
+          demo: 'https://www.pinkfong.com/en/',
         }
       },
     ],

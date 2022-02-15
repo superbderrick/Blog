@@ -1,6 +1,6 @@
 ---
 emoji: 🎮 
-title: GADInvalidInitializationException: The Google Mobile Ads SDK was initialized without an application ID
+title: GADInvalidInitializationException The Google Mobile Ads SDK was initialized without an application ID
 date: '2022-02-14 15:20:00'
 author: Derrick
 tags: Unity

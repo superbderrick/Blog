@@ -3,8 +3,8 @@ emoji: 🎮
 title: GADInvalidInitializationException: The Google Mobile Ads SDK was initialized without an application ID
 date: '2022-02-14 15:20:00'
 author: Derrick
-tags: Android
-categories: Android
+tags: Unity
+categories: Unity
 ---
 
 When you try build with google admob for iOS Build after install Google Admob unity plugin, if you met a build error with below message

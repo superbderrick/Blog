@@ -3,8 +3,8 @@ emoji: 📞
 title: Gold name card from Remember service
 date: '2022-02-20 14:40:00'
 author: Derrick
-tags: carleer social life
-categories: carleer
+tags: Carleer Social Life
+categories: Carleer
 ---
 
 Actually I am using some carleer services , linkedin and the remember
@@ -15,7 +15,7 @@ I just registered my carleer profile at remember service. but  they nominated as
 They gave me a gold name card really cool
 
 
-![](1.jepg)
+![](https://github.com/superbderrick/Blog/blob/docs/content/posts/goldnamecard/1.jpeg?raw=true)
 
 defenitly recommned the service
 

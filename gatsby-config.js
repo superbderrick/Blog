@@ -6,8 +6,14 @@ module.exports = {
   siteMetadata: metaConfig,
 
   plugins: [
+    
     `gatsby-plugin-react-helmet`,
     {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        publisherId: `ca-pub-3437479899059166`
+      },
+
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `assets`,

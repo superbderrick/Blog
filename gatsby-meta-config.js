@@ -216,6 +216,37 @@ module.exports = {
       },
    
     ],
+    opensource: [
+      // =====        [Project Sample and Structure]        =====
+      // ===== 🚫 Don't erase this sample (여기 지우지 마세요!) =====
+      {
+        title: '',
+        description: '',
+        techStack: ['', ''],
+        thumbnailUrl: '',
+        links: {
+          post: '',
+          github: '',
+          googlePlay: '',
+          appStore: '',
+          demo: '',
+        },
+      },
+      // ========================================================
+      // ========================================================
+
+      {
+        title: 'NexPlayer SDK for Windows UWP',
+        description:
+        'Mobile Live Streaming Player SDK Development for Windows 10 & UWP, made a sdk sample code and made some major modules like caption renderer',
+        techStack: ['Windows UWP', 'c#' ,'sdk'],
+        thumbnailUrl: 'nexunity.png',
+        links: {
+          post: '/experience/nexplayerwindow',
+        },
+      },
+   
+    ]
   },
 };
 

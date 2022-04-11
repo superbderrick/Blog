@@ -33,9 +33,7 @@ const PageHeader = ({ siteTitle }) => {
                 <Link className="link" to="/project">
                   Projects
                 </Link>
-                <Link className="link" to="/opsource">
-                  Open Source 
-                </Link>
+                
                 <Switch
                   className="dark-mode-switch"
                   size="medium"

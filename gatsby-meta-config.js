@@ -171,6 +171,28 @@ module.exports = {
       },
 
       {
+        title: 'SummerSlider, iOS Open Source',
+        description:
+        'SummerSlider that can distinguish the parts where the advertisement of the video player comes out ',
+        techStack: ['iOS'],
+        thumbnailUrl: 'slider.png',
+        links: {
+          post: '/summerslider',
+        },
+      },
+
+      {
+        title: 'SummerPlayerView, iOS Open Source',
+        description:
+        'iOS Custom VideoPlayerView for kids, Tried to make it as similar as possible a Youtube kids App Player UI ',
+        techStack: ['iOS'],
+        thumbnailUrl: 'playerview.png',
+        links: {
+          post: '/summerplayerview',
+        },
+      },
+
+      {
         title: 'NexPlayer SDK for Unity',
         description:
         'The main works are customer support, development for new features and Integrate with 3rd party’s solutions and build a whole architecture',

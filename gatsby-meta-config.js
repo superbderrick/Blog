@@ -236,6 +236,17 @@ module.exports = {
           post: '/experience/nexplayerwindow',
         },
       },
+
+      {
+        title: 'Scoreboard, Android Opensource app',
+        description:
+        'Simple android app which can record table tennis score data',
+        techStack: ['Android','java'],
+        thumbnailUrl: 'scoreboard.png',
+        links: {
+          post: '/scoreboard',
+        },
+      },
    
     ],
     opensource: [

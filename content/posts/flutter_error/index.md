@@ -15,6 +15,15 @@ I found some error after doctor commands in terminal like below
 
 
 
+Solution 
 
 
+First open the android studio and click sdkmanger 
+
+![](https://github.com/superbderrick/Blog/blob/docs/content/posts/flutter_error/and.png?raw=true)
+
+and then install 
+
+
+![](https://github.com/superbderrick/Blog/blob/docs/content/posts/flutter_error/after.png?raw=true)
 

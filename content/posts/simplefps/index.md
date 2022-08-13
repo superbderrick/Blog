@@ -13,3 +13,6 @@ I made a simple fps game using photon 2 service and unity
 
 
 https://github.com/superbderrick/SummerFPS
+
+![](https://github.com/superbderrick/Blog/blob/docs/content/posts/simplefps/demo.gif?raw=true)
+

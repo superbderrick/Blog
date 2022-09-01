@@ -14,12 +14,12 @@ In Android 12, a separate permission has been added to obtain a Google Advertisi
 You cannot obtain a Google Advertising ID from an app without permission
 
 
-  <manifest>
-  ...
-      <uses-permission android:name="com.google.android.gms.permission.AD_ID" /> 
-  ...
-  </manifest>
- 
+    <manifest>
+    ...
+        <uses-permission android:name="com.google.android.gms.permission.AD_ID" /> 
+    ...
+    </manifest>
+   
 
 
 
@@ -31,9 +31,9 @@ Children's apps targeting Android 13 (API 33) or higher should add a revocation 
 
 
 
-  <uses-permission android:name="com.google.android.gms.permission.AD_ID"
-  tools:node="remove"/>
-   
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID"
+    tools:node="remove"/>
+     
 
 Reference 
 https://developers.google.com/android/reference/com/google/android/gms/ads/identifier/AdvertisingIdClient.Info#public-string-getid

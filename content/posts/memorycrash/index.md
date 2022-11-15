@@ -1,13 +1,13 @@
 ---
 emoji: 🎮 
-title: using memoryadresses from more than 16gb of memory from unity
+title: using memoryadresses from more than sixteen of memory from unity
 date: '2022-11-15 20:20:00'
 author: Derrick
 tags: Unity
 categories: Unity
 ---
 
-Someday CS Team reported the app cranh issue from customer 
+Someday CS Team reported the app cranh issue from customer with crash logs using memoryadresses from more than 16gb of memory from unity
 after figure out , it is an unity bug like below
 
 https://issuetracker.unity3d.com/issues/android-il2cpp-empty-project-crashes-on-launch-with-using-memoryadresses-from-more-than-16gb-of-memory-messages

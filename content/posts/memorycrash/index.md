@@ -1,6 +1,6 @@
 ---
 emoji: 🎮 
-title: USING MEMORYADRESSES FROM MORE THAN 16GB OF MEMORY from unity android
+title: using memoryadresses from more than 16gb of memory from unity
 date: '2022-11-15 20:20:00'
 author: Derrick
 tags: Unity

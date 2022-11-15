@@ -1,7 +1,7 @@
 ---
 emoji: 🎮 
-title: photon 2 and unity made a simple fps game test
-date: '2022-09-13 15:20:00'
+title: using memoryadresses from more than 16gb  of memory from unity
+date: '2022-11-15 20:20:00'
 author: Derrick
 tags: Unity
 categories: Unity
@@ -18,9 +18,3 @@ Let's use latest lts unity versions, for me I fixed the bug using 2020.3.15f2 ve
 
 
 
-emoji: 🎮 
-title: using memoryadresses from more than sixteen of memory from unity
-date: '2022-11-15 20:20:00'
-author: Derrick
-tags: Unity
-categories: Unity

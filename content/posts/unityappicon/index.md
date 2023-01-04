@@ -14,8 +14,10 @@ Look at the Unity Edtior setting window below
 
 PlayerSettings -> Player -> Android Tab -> Icon
 
+![](https://github.com/superbderrick/Blog/blob/docs/content/posts/unityappicon/error.png?raw=true)
 
-https://github.com/superbderrick/Blog/blob/docs/content/posts/unityappicon/error.png?raw=true
+
+
 
 you can see how to set your app icons
 

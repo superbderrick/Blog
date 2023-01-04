@@ -7,6 +7,8 @@ tags: Unity
 categories: Unity
 ---
 
+![](https://github.com/superbderrick/Blog/blob/docs/content/posts/unity_ventura/123.png?raw=true)
+
 After updated mac os to ventura,13 version some texts in unity packagemanager system broken
 
 it is an unity editor issue from updates in ventura

@@ -1,10 +1,10 @@
 ---
 emoji: 🎮 
-title: c# convertall
+title: csharp convertall
 date: '2023-01-16 21:20:00'
 author: Derrick
-tags: C# arrayconvertall
-categories: C#
+tags: Csharp arrayconvertall
+categories: Csharp
 ---
 
 https://school.programmers.co.kr/learn/courses/30/lessons/12939

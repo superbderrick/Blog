@@ -3,8 +3,8 @@ emoji: 🎮
 title: Boxing and unboxing
 date: '2023-01-09 15:20:00'
 author: Derrick
-tags: C#
-categories: C#
+tags: Csharp
+categories: Csharp
 ---
 
 Object format is reference type, It will save to heap 

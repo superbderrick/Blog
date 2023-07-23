@@ -1,42 +1,39 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import { ThemeToggler } from 'gatsby-plugin-dark-mode';
-import Layout from '../components/layout';
-import SEO from '../components/seo';
-// import TableOfContents from '../components/toc';
+import Layout from '../layout';
+import Seo from '../components/seo';
 import PostHeader from '../components/post-header';
-import PostCardsAdjacent from '../components/post-cards-adjacent';
+import PostNavigator from '../components/post-navigator';
 import Post from '../models/post';
 import PostContent from '../components/post-content';
-import { Utterances } from '../components/utterances';
+import Utterances from '../components/utterances';
 
-export default ({ data }) => {
+function BlogTemplate({ data }) {
   const curPost = new Post(data.cur);
   const prevPost = data.prev && new Post(data.prev);
   const nextPost = data.next && new Post(data.next);
-  const utterancesRepo = data.site?.siteMetadata?.comments?.utterances?.repo;
+  const { comments } = data.site?.siteMetadata;
+  const utterancesRepo = comments?.utterances?.repo;
 
   return (
     <Layout>
-      <SEO title={curPost?.title} description={curPost?.excerpt} />
+      <Seo title={curPost?.title} description={curPost?.excerpt} />
       <PostHeader post={curPost} />
       <PostContent html={curPost.html} />
-      <PostCardsAdjacent prevPost={prevPost} nextPost={nextPost} />
-      {utterancesRepo && (
-        <ThemeToggler>
-          {({ theme }) => <Utterances repo={utterancesRepo} theme={theme} />}
-        </ThemeToggler>
-      )}
+      <PostNavigator prevPost={prevPost} nextPost={nextPost} />
+      {utterancesRepo && <Utterances repo={utterancesRepo} path={curPost.slug} />}
     </Layout>
   );
-};
+}
+
+export default BlogTemplate;
 
 export const pageQuery = graphql`
   query($slug: String, $nextSlug: String, $prevSlug: String) {
     cur: markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       html
-      excerpt(pruneLength: 350, truncate: true)
+      excerpt(pruneLength: 500, truncate: true)
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
@@ -81,6 +78,7 @@ export const pageQuery = graphql`
 
     site {
       siteMetadata {
+        siteUrl
         comments {
           utterances {
             repo

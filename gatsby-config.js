@@ -6,14 +6,7 @@ module.exports = {
   siteMetadata: metaConfig,
 
   plugins: [
-    
-    `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-plugin-google-adsense`,
-      options: {
-        publisherId: `ca-pub-3437479899059166`
-      },
-
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `assets`,
@@ -27,13 +20,6 @@ module.exports = {
         path: `${__dirname}/content`,
       },
     },
-    `gatsby-transformer-remark`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    `gatsby-plugin-sass`,
-    `gatsby-theme-material-ui`,
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-advanced-sitemap`,
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
@@ -131,10 +117,16 @@ module.exports = {
           `gatsby-remark-autolink-headers`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
-          `gatsby-remark-mathjax`,
-          `gatsby-plugin-dark-mode`,
         ],
       },
     },
+    `gatsby-theme-material-ui`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-advanced-sitemap`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-image`,
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
   ],
 };

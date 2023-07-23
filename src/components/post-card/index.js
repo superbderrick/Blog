@@ -1,9 +1,8 @@
 import { Link } from 'gatsby';
 import React from 'react';
-
 import './style.scss';
 
-const PostCard = ({ post }) => {
+function PostCard({ post }) {
   const { id, slug, title, excerpt, date, categories } = post;
   return (
     <div className="post-card-wrapper">
@@ -14,15 +13,15 @@ const PostCard = ({ post }) => {
           <div className="date">{date}</div>
           <div className="categories">
             {categories.map((category) => (
-              <div className="category" key={category} to={`/posts/${category}`}>
+              <Link className="category" key={category} to={`/posts/${category}`}>
                 {category}
-              </div>
+              </Link>
             ))}
           </div>
         </div>
       </Link>
     </div>
   );
-};
+}
 
 export default PostCard;

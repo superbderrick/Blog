@@ -75,7 +75,7 @@ module.exports = {
       },
       {
         date: '2021.04 ~ ',
-        activity: 'Lead Engineer at The Pinkfong Company',
+        activity: 'Lead Software Engineer at The Pinkfong Company',
         links: {
           demo: 'https://www.pinkfong.com/en/',
         }

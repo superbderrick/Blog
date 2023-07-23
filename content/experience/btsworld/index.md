@@ -10,7 +10,7 @@ categories: CommercialProject
 
 BTS WORLD project
 Developed for special Unity SDK for BTS World Game (consortium project)
-Role: PM and Lead Engineer - Feature development - Product preparation and documentation, supply to customer
+Role: PM and Lead Software Engineer - Feature development - Product preparation and documentation, supply to customer
 
 Releated post : 
 - https://btsw.netmarble.com/en/home
